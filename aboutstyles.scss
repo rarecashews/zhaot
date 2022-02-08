@@ -40,7 +40,7 @@ body {
 
 .navbar {
     height: 35px;
-    color: green;
+    margin: .2em;
     ul {
         list-style-type: none;
         margin: 12px;
@@ -74,9 +74,6 @@ body {
         font-size: 16;
         font-weight: 600;
         margin: 0;
-        position: absolute;
-        top: 78%;
-        left: 25%;
     }
     a{
         color: black;
@@ -86,7 +83,6 @@ body {
 }
 
 .img {
-    margin-top: 150px;
     a{
         text-decoration: none;
         color: black;
@@ -105,28 +101,35 @@ body {
 }
 
 .bio {
+    height: 540px;
+    div {
+        width: 500px;
+        margin: auto;
+    }
     p {
         font-family: Baskervville, Times, serif;
         font-size: 16;
         font-weight: 600;
         margin: 0;
-        position: absolute;
-        top: 28%;
-        left: 25%;
     }
 }
 
+.me {
+    width: 900;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .about {
+    height: 50px;
     font-family: Noto Sans SC, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 23px;
     margin: 0;
-    position: absolute;
-    top: 14%;
-    left: 25%;
 }
 
 .info {
+    height: 40px;
     a{
         text-decoration: none;
         color: black;
@@ -137,9 +140,6 @@ body {
         font-size: 16;
         font-weight: 600;
         margin: 0;
-        position: absolute;
-        top: 23%;
-        left: 25%;
     }
 
     span:before {

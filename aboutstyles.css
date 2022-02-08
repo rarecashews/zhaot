@@ -41,7 +41,7 @@ body a {
 
 .navbar {
   height: 35px;
-  color: green;
+  margin: .2em;
 }
 
 .navbar ul {
@@ -75,19 +75,12 @@ body a {
   font-size: 16;
   font-weight: 600;
   margin: 0;
-  position: absolute;
-  top: 78%;
-  left: 25%;
 }
 
 .resume a {
   color: black;
   text-decoration: none;
   text-decoration: underline;
-}
-
-.img {
-  margin-top: 150px;
 }
 
 .img a {
@@ -106,24 +99,38 @@ body a {
           transform: scale(1.06);
 }
 
+.bio {
+  height: 540px;
+}
+
+.bio div {
+  width: 500px;
+  margin: auto;
+}
+
 .bio p {
   font-family: Baskervville, Times, serif;
   font-size: 16;
   font-weight: 600;
   margin: 0;
-  position: absolute;
-  top: 28%;
-  left: 25%;
+}
+
+.me {
+  width: 900;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .about {
+  height: 50px;
   font-family: Noto Sans SC, Tahoma, sans-serif;
   font-weight: 500;
   font-size: 23px;
   margin: 0;
-  position: absolute;
-  top: 14%;
-  left: 25%;
+}
+
+.info {
+  height: 40px;
 }
 
 .info a {
@@ -136,9 +143,6 @@ body a {
   font-size: 16;
   font-weight: 600;
   margin: 0;
-  position: absolute;
-  top: 23%;
-  left: 25%;
 }
 
 .info span:before {
