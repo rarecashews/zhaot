@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap');
 body {
+    width: auto;
     position: fixed;
     top: 45%;
     left: 50%;
@@ -7,6 +8,8 @@ body {
     margin: 0;
     background: white;
     text-align: center;
+    overflow-wrap: break-word;
+
 
     a {
         text-decoration: none;
@@ -55,7 +58,9 @@ body {
 
     a {
         color: black;
-        font-family: Noto Sans SC, Tahoma, sans-serif;
+        font-family: Baskervville, Times, serif;
+        font-size: 18;
+        font-weight: 600;
         cursor: crosshair;
     }
 }

@@ -5,6 +5,7 @@ body {
   margin-top: 22px;
   background: white;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 body a {
@@ -85,19 +86,13 @@ body a {
   text-decoration: underline;
 }
 
+.img {
+  margin-top: 150px;
+}
+
 .img a {
   text-decoration: none;
   color: black;
-}
-
-.img p {
-  font-family: Baskervville, Times, serif;
-  font-size: 16;
-  font-weight: 600;
-  margin: 0;
-  position: absolute;
-  top: 23%;
-  left: 25%;
 }
 
 .img img {
