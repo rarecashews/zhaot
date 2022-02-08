@@ -1,227 +1,200 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap');
 body {
-  margin: 0;
-  margin-top: 22px;
-  background: white;
-  text-align: center;
-  overflow-wrap: break-word;
-}
+    margin: 0;
+    margin-top: 22px;
+    background: white;
+    text-align: center;
+    overflow-wrap: break-word;
 
-body a {
-  text-decoration: none;
-  cursor: crosshair;
+    a {
+        text-decoration: none;
+        cursor: crosshair;
+    }
 }
 
 .namebar {
-  height: 50px;
-  margin: .1em;
-  text-align: center;
-}
+    height: 50px;
+    margin: .1em;
+    text-align: center;
 
-.namebar span {
-  font-size: 48px;
-  font-family: Outfit, Tahoma, sans-serif;
-}
-
-.namebar a {
-  color: black;
-  cursor: crosshair;
-}
-
-.namebar a:hover span {
-  display: none;
-}
-
-.namebar a:hover:before {
-  font-size: 43px;
-  font-family: Noto Sans SC, Tahoma, sans-serif;
-  content: "赵姓";
+    span {
+        font-size: 48px;
+        font-family: Outfit, Tahoma, sans-serif;
+      }
+      
+      a {
+        color: black;
+        cursor: crosshair;
+      }
+      
+      a:hover span {
+        display: none;
+      }
+      
+      a:hover:before {
+        font-size: 43px;
+        font-family: Noto Sans SC, Tahoma, sans-serif;
+        content: "赵姓";
+      }
 }
 
 .navbar {
-  height: 35px;
-  margin: .2em;
+    height: 35px;
+    margin: .2em;
+    ul {
+        list-style-type: none;
+        margin: 12px;
+        padding: 5px;
+        display: inline-flex;
+    }
+
+    span {
+        visibility: hidden;
+    }
+
+    a {
+        color: black;
+        font-family: Baskervville, Times, serif;
+        font-size: 18;
+        font-weight: 600;
+        cursor: crosshair;
+    }
+
+    .current {
+        a {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
+    }
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 12px;
-  padding: 5px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.resume {
+    p{
+        font-family: Baskervville, Times, serif;
+        font-size: 16;
+        font-weight: 600;
+        margin: 0;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        text-decoration: underline;
+    }
 }
 
-.navbar span {
-  visibility: hidden;
-}
+.img {
+    a{
+        text-decoration: none;
+        color: black;
+    }
 
-.navbar a {
-  color: black;
-  font-family: Baskervville, Times, serif;
-  font-size: 18;
-  font-weight: 600;
-  cursor: crosshair;
-}
+    img{
+        border-radius: 25px;
+        -webkit-box-shadow: 0 0 4px 4px #8d8d8d;
+        -moz-box-shadow: 0 0 4px 4px #8d8d8d;
+        box-shadow: 0 0 4px 4px #8d8d8d;
+    }
 
-.navbar .current a {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-}
-
-.resume p {
-  font-family: Baskervville, Times, serif;
-  font-size: 16;
-  font-weight: 600;
-  margin: 0;
-}
-
-.resume a {
-  color: black;
-  text-decoration: none;
-  text-decoration: underline;
-}
-
-.img a {
-  text-decoration: none;
-  color: black;
-}
-
-.img img {
-  border-radius: 25px;
-  -webkit-box-shadow: 0 0 4px 4px #8d8d8d;
-  box-shadow: 0 0 4px 4px #8d8d8d;
-}
-
-.img img:hover {
-  -webkit-transform: scale(1.06);
-          transform: scale(1.06);
+    img:hover {
+        transform: scale(1.06);
+    }
 }
 
 .bio {
-  height: 110px;
-}
-
-.bio div {
-  width: 500px;
-  margin: auto;
-}
-
-.bio p {
-  font-family: Baskervville, Times, serif;
-  font-size: 16;
-  font-weight: 600;
-  margin: 0;
-  line-height: 160%;
+    height: 110px;
+    div {
+        width: 500px;
+        margin: auto;
+    }
+    p {
+        font-family: Baskervville, Times, serif;
+        font-size: 16;
+        font-weight: 600;
+        margin: 0;
+        line-height: 160%;
+    }
 }
 
 .stats {
-  height: 420px;
-}
-
-.stats div {
-  width: 500px;
-  margin: auto;
-}
-
-.stats p {
-  font-family: Noto Sans SC, Tahoma, sans-serif;
-  font-weight: 500;
-  font-size: 23px;
-  margin: 0;
-}
-
-.stats li {
-  font-family: Baskervville, Times, serif;
-  font-size: 16;
-  font-weight: 600;
-  margin: 0;
-  line-height: 160%;
-}
-
-.stats a {
-  text-decoration: none;
-  color: black;
-  text-decoration: underline;
+    height: 420px;
+    div {
+        width: 500px;
+        margin: auto;
+    }
+    p {
+        font-family: Noto Sans SC, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+        margin: 0;
+    }
+    li {
+        font-family: Baskervville, Times, serif;
+        font-size: 16;
+        font-weight: 600;
+        margin: 0;
+        line-height: 160%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+    }
 }
 
 .me {
-  width: 900;
-  margin: 0 auto;
-  text-align: left;
+    width: 900;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .about {
-  height: 50px;
-  font-family: Noto Sans SC, Tahoma, sans-serif;
-  font-weight: 500;
-  font-size: 23px;
-  margin: 0;
+    height: 50px;
+    font-family: Noto Sans SC, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 0;
 }
 
 .info {
-  height: 40px;
+    height: 40px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        font-family: Baskervville, Times, serif;
+        font-size: 16;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    span:before {
+        text-decoration: underline;
+        content: '';
+        animation: animate infinite 8s;
+    }
 }
 
-.info a {
-  text-decoration: none;
-  color: black;
+.change {
+    @keyframes animate {
+        0%{
+            content: 'student.'
+        }
+        20%{
+            content: 'developer.'
+        }
+        40%{
+            content: 'dreamer.'
+        }
+        60%{
+            content: 'creator.'
+        }
+        80%{
+            content: 'designer.'
+        }
+        100%{
+            content: 'student.'
+        }
+    }
 }
-
-.info p {
-  font-family: Baskervville, Times, serif;
-  font-size: 16;
-  font-weight: 600;
-  margin: 0;
-}
-
-.info span:before {
-  text-decoration: underline;
-  content: '';
-  -webkit-animation: animate infinite 8s;
-          animation: animate infinite 8s;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    content: 'student.';
-  }
-  20% {
-    content: 'developer.';
-  }
-  40% {
-    content: 'dreamer.';
-  }
-  60% {
-    content: 'creator.';
-  }
-  80% {
-    content: 'designer.';
-  }
-  100% {
-    content: 'student.';
-  }
-}
-
-@keyframes animate {
-  0% {
-    content: 'student.';
-  }
-  20% {
-    content: 'developer.';
-  }
-  40% {
-    content: 'dreamer.';
-  }
-  60% {
-    content: 'creator.';
-  }
-  80% {
-    content: 'designer.';
-  }
-  100% {
-    content: 'student.';
-  }
-}
-/*# sourceMappingURL=aboutstyles.css.map */
