@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap");
+body {
+  margin: 0;
+  background: white;
+  text-align: center;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.namebar {
+  height: 100px;
+  margin: .2em;
+  text-align: center;
+}
+
+.namebar span {
+  font-size: 85px;
+  font-family: Outfit, Tahoma, sans-serif;
+}
+
+.namebar a {
+  color: black;
+}
+
+.namebar a:hover span {
+  display: none;
+}
+
+.namebar a:hover:before {
+  font-size: 73px;
+  font-family: Noto Sans SC, Tahoma, sans-serif;
+  content: "赵姓";
+}
+
+.navbar {
+  height: 35px;
+  color: green;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 12px;
+  padding: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.navbar span {
+  visibility: hidden;
+}
+
+.navbar a {
+  color: black;
+  font-family: Noto Sans SC, Tahoma, sans-serif;
+}
+
+.navbar .current a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+/*# sourceMappingURL=aboutstyles.css.map */
