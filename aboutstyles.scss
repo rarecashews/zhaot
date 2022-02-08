@@ -101,7 +101,7 @@ body {
 }
 
 .bio {
-    height: 540px;
+    height: 110px;
     div {
         width: 500px;
         margin: auto;
@@ -111,6 +111,33 @@ body {
         font-size: 16;
         font-weight: 600;
         margin: 0;
+        line-height: 160%;
+    }
+}
+
+.stats {
+    height: 420px;
+    div {
+        width: 500px;
+        margin: auto;
+    }
+    p {
+        font-family: Noto Sans SC, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 23px;
+        margin: 0;
+    }
+    li {
+        font-family: Baskervville, Times, serif;
+        font-size: 16;
+        font-weight: 600;
+        margin: 0;
+        line-height: 160%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
     }
 }
 
@@ -147,7 +174,9 @@ body {
         content: '';
         animation: animate infinite 8s;
     }
+}
 
+.change {
     @keyframes animate {
         0%{
             content: 'student.'

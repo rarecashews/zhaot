@@ -100,7 +100,7 @@ body a {
 }
 
 .bio {
-  height: 540px;
+  height: 110px;
 }
 
 .bio div {
@@ -113,6 +113,37 @@ body a {
   font-size: 16;
   font-weight: 600;
   margin: 0;
+  line-height: 160%;
+}
+
+.stats {
+  height: 420px;
+}
+
+.stats div {
+  width: 500px;
+  margin: auto;
+}
+
+.stats p {
+  font-family: Noto Sans SC, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  margin: 0;
+}
+
+.stats li {
+  font-family: Baskervville, Times, serif;
+  font-size: 16;
+  font-weight: 600;
+  margin: 0;
+  line-height: 160%;
+}
+
+.stats a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
 
 .me {
