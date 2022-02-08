@@ -27,6 +27,7 @@ body a {
 }
 
 .namebar a {
+  cursor: crosshair;
   color: black;
 }
 
@@ -61,6 +62,7 @@ body a {
 .navbar a {
   color: black;
   font-family: Noto Sans SC, Tahoma, sans-serif;
+  cursor: crosshair;
 }
 
 .fade-in {
