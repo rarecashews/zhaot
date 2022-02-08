@@ -36,7 +36,7 @@ body a {
 .namebar a:hover:before {
   font-size: 43px;
   font-family: Noto Sans SC, Tahoma, sans-serif;
-  content: "赵姓";
+  content: "赵鑫";
 }
 
 .navbar {
