@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap');
+body {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    margin: 0;
+    background: white;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.namebar {
+    height: 100px;
+    margin: .2em;
+    text-align: center;
+
+    span {
+        font-size: 85px;
+        font-family: Outfit, Tahoma, sans-serif;
+      }
+      
+      a {
+        color: black;
+      }
+      
+      a:hover span {
+        display: none;
+      }
+      
+      a:hover:before {
+        font-size: 73px;
+        font-family: Noto Sans SC, Tahoma, sans-serif;
+        content: "赵姓";
+      }
+}
+
+.navbar {
+    height: 35px;
+    color: green;
+    ul {
+        list-style-type: none;
+        margin: 12px;
+        padding: 5px;
+        display: inline-flex;
+    }
+
+    span {
+        visibility: hidden;
+    }
+
+    a {
+        color: black;
+        font-family: Noto Sans SC, Tahoma, sans-serif;
+    }
+}
+
+.fade-in {
+    animation: fadeIn ease 4s;
+  }
+  @keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    22%{
+        opacity:0;
+    }
+    50%{
+        opacity:.2;
+    }
+    75%{
+        opacity:.6;
+    }
+    100% {
+        opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    22%{
+        opacity:0;
+    }
+    50%{
+        opacity:.2;
+    }
+    75%{
+        opacity:.6;
+    }
+    100% {
+        opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    22%{
+        opacity:0;
+    }
+    50%{
+        opacity:.2;
+    }
+    75%{
+        opacity:.6;
+    }
+    100% {
+        opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    22%{
+        opacity:0;
+    }
+    50%{
+        opacity:.2;
+    }
+    75%{
+        opacity:.6;
+    }
+    100% {
+        opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    22%{
+        opacity:0;
+    }
+    50%{
+        opacity:.2;
+    }
+    75%{
+        opacity:.6;
+    }
+    100% {
+        opacity:1;
+    }
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&family=Outfit:wght@600&display=swap");
+body {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+          transform: translate(-50%, -40%);
+  margin: 0;
+  background: white;
+  text-align: center;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.namebar {
+  height: 100px;
+  margin: .2em;
+  text-align: center;
+}
+
+.namebar span {
+  font-size: 85px;
+  font-family: Outfit, Tahoma, sans-serif;
+}
+
+.namebar a {
+  color: black;
+}
+
+.namebar a:hover span {
+  display: none;
+}
+
+.namebar a:hover:before {
+  font-size: 73px;
+  font-family: Noto Sans SC, Tahoma, sans-serif;
+  content: "赵姓";
+}
+
+.navbar {
+  height: 35px;
+  color: green;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 12px;
+  padding: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.navbar span {
+  visibility: hidden;
+}
+
+.navbar a {
+  color: black;
+  font-family: Noto Sans SC, Tahoma, sans-serif;
+}
+
+.fade-in {
+  -webkit-animation: fadeIn ease 4s;
+          animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  22% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .2;
+  }
+  75% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  22% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .2;
+  }
+  75% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
